@@ -1,0 +1,1 @@
+# get current path, add into the plist

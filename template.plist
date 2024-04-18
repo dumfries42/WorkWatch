@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <!-- Name, should be unique globally -->
+        <key>Label</key>
+        <string>[task.label]</string>
+        <!-- script path -->
+        <key>Program</key>
+        <string>[script.path]</string>
+        <!-- Execute interval，use it or StartCalenderInterval, unit is second -->
+        <key>StartInterval</key>
+        <integer>10</integer>
+
+        <!--        23:01 Everyday -->
+<!--        <key>StartCalendarInterval</key>-->
+<!--        <dict>-->
+<!--            <key>Hour</key>-->
+<!--            <integer>23</integer>-->
+<!--            <key>Minute</key>-->
+<!--            <integer>01</integer>-->
+<!--        </dict>-->
+<!--        &lt;!&ndash; Error output &ndash;&gt;-->
+        <key>StandardErrorPath</key>
+        <string>/Users/mac/Desktop/errorlog</string>
+    </dict>
+</plist>
